@@ -11,7 +11,7 @@ namespace WEBAPI_Ufinet.Controllers
 {
     public class PaisController : ApiController
     {
-        
+        //api/Pais/ObtenerRegistrosPaginados?numpag=numerodepagina&regpag=registros por pagina
         [HttpGet]
         [Route("api/Pais/ListaPaginada")]
         public IHttpActionResult ListaPaginada(int numpag, int regpag = 30)
